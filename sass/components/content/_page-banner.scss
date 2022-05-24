@@ -1,0 +1,59 @@
+/* This is the start of the banner section */
+.bannerSection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin: 50px 0px;
+    align-items: center;
+    background-color: #eedbff;
+    border: 1px solid #000;
+}
+.bannerImg{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://travel-site.local/wp-content/uploads/2022/05/banner-img-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+}
+.bannerCopy{
+    width: 800px;
+    color: #fff;
+}
+.bannerCopy h3{
+    font-size: 34px;
+    margin: 10px 0px;
+}
+.bannerCopy p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+.bannerBtn{
+    margin: 15px 0px;
+}
+.bannerBtn a{
+    padding: 5px 40px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+
+}
+.bannerBtn a:hover{
+    background-color: darkmagenta;
+    color: #fff;
+}
+.bannerBtn a:active{
+    background-color: cornflowerblue;
+    color: #fff;
+}
+/* This is th end of the banner section */

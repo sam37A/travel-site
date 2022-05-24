@@ -643,6 +643,7 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  float: right;
 }
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -673,6 +674,17 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 20px;
+}
+.main-navigation a:hover {
+  color: darkmagenta;
+}
+.main-navigation a:active {
+  color: cornflowerblue;
 }
 /* Small menu. */
 .menu-toggle,
@@ -737,6 +749,137 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+/* This is the start of hero section  */
+main {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://travel-site.local/wp-content/uploads/2022/05/heroimg-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* This is the end of hero section  */
+/* This is the start of icon section  */
+.row {
+  margin: 20px 20px;
+}
+
+.column {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  padding: 35px 10px;
+  /* border:1px solid #000 ; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* This is the end of icon section  */
+/* This is the start of info section  */
+.infoBox {
+  width: 50%;
+  height: 600px;
+  float: left;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.infoTextbox {
+  padding: 70px 50px;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.info-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* This is the end of info section  */
+/* This is the start of the banner section */
+.bannerSection {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  margin: 50px 0px;
+  align-items: center;
+  background-color: #eedbff;
+  border: 1px solid #000;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://travel-site.local/wp-content/uploads/2022/05/banner-img-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 10%;
+}
+
+.bannerCopy {
+  width: 800px;
+  color: #fff;
+}
+
+.bannerCopy h3 {
+  font-size: 34px;
+  margin: 10px 0px;
+}
+
+.bannerCopy p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 0px;
+}
+
+.bannerBtn {
+  margin: 15px 0px;
+}
+
+.bannerBtn a {
+  padding: 5px 40px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.bannerBtn a:hover {
+  background-color: darkmagenta;
+  color: #fff;
+}
+
+.bannerBtn a:active {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+/* This is th end of the banner section */
 /* Comments
 --------------------------------------------- */
 .comment-content a {

@@ -3,6 +3,7 @@
 	height: 60px;
     width: 100%;
     background-color: #eedbff;
+	
     position: sticky;
     top: 0;
     z-index: 1;
@@ -17,12 +18,14 @@
 .main-navigation {
 	display: block;
 	width: 100%;
+	
 
 	ul {
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		float: right;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -76,6 +79,21 @@
 	a {
 		display: block;
 		text-decoration: none;
+		
+		display: inline-block;
+		color: #000;
+		font-weight: bolder;
+		text-transform: uppercase;
+		margin: 20px 20px;
+		
+
+		&:hover{
+			color: darkmagenta;
+		}
+		&:active{
+			color:cornflowerblue;
+			
+		}
 	}
 
 	.current_page_item > a,

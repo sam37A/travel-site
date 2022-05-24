@@ -1,0 +1,21 @@
+/* This is the start of info section  */  
+.infoBox{
+    width: 50%;
+    height: 600px;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+    //  border: 1px solid #000; 
+     
+}
+.infoTextbox{
+    padding: 70px 50px;
+    line-height: 200%;
+    text-align: justify;
+}
+.info-section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is the end of info section  */ 
