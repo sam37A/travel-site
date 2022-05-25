@@ -35,6 +35,7 @@
     <!-- This is the end of icon section -->
     <?php get_template_part('template-parts/info-section') ?>
     <?php get_template_part('template-parts/banner') ?>
+    <?Php get_footer(); ?>
 
     
 
