@@ -9,8 +9,8 @@
 <!-- This is the start of hero section -->
 <main id="topBtn">
         <div class="hero-text">
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1> <?php the_field('hero_title');?></h1>
+            <p><?php the_field('hero_paragraph');?></p>
         </div>
     </main>
     <!-- This is the end of hero section --> 
@@ -34,7 +34,10 @@
     </section>
     <!-- This is the end of icon section -->
     <?php get_template_part('template-parts/info-section') ?>
+   <?php get_template_part('template-parts/destination') ?>
     <?php get_template_part('template-parts/banner') ?>
+    <?php get_template_part('template-parts/back-top-button') ?>
+
     <?Php get_footer(); ?>
 
     

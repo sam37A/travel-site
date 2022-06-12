@@ -1,0 +1,23 @@
+/*This is the start of the back to top button  */
+.topButton{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30px;
+}
+.topButton a{
+    padding: 8px 15px;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.topButton a:hover{
+    background-color: darkmagenta;
+}
+.topButton a:active{
+    background-color: cornflowerblue;
+}
+/* This is the end of the back to top button */

@@ -14,15 +14,18 @@
 
  <footer id ="colophon" class ="site-footer">
         <div class="footerBox">
-            <ul>
-                <a href="/index.html"><li>Home</li></a>
-                <a href="/about.html"><li>About</li></a>
-                <a href="/contact.html"><li>Contact</li></a>
-            </ul>
+        <?php
+            wp_nav_menu(array(
+                'menu' => 'Nav Menu',
+                'theme_location' => 'footer-menu',
+                'menu_class' => 'footer-menu',
+                'menu_id' => 'footer-id'
+            ))
+        ?>
 
         </div>
         <div class="footerBox">
-            <p>&copy; W4B Neptali Montez</p>
+            <p>&copy; suman</p>
         </div>
         <div class="footerBox">
             <div class="socialMedia">

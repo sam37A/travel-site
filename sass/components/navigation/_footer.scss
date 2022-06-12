@@ -18,18 +18,19 @@ footer{
 }
 .footerBox a{
     text-decoration: none;
+    color: #000;
 }
 .footerBox ul li{
-    color: #000;
+    
     
     font-weight: bolder;
     text-transform: uppercase;
     margin: 20px 20px;
 }
-.footerBox ul li:hover{
+.footerBox ul a:hover{
     color: darkmagenta;
 }
-.footerBox ul li:active{
+.footerBox ul a:active{
     color:cornflowerblue;
 }
 .footerBox p{
